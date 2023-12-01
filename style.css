@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+header h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  } 
+.images{
+    margin-bottom: 10px;
+}
+.Input {
+    width: 40%;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 15px greenyellow;
+    margin-right: -3%;
+    text-align: center;
+}
+.Search-Button {
+    background-color: #333;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0px 25px 25px 0px;
+    box-shadow: 0px 0px 6px #ddd;
+    font-size: 25px;
+    cursor: pointer;
+    height: 72px;
+}
+#mealss{
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 30px;
+  }
+.Randomm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    margin-left: 35%;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 8px 8px rgba(128, 128, 128, 0.653);
+    color: white;
+    width: 450px;
+}
+.meal {
+    cursor: pointer;
+    margin-left: 40px;
+}
+.Randomm .meal img {
+    width: 400px;
+    height: 400px;
+    transition: all 0.2s ease-in-out;
+}
+.Randomm .meal h3 {
+    font-size: 30px;
+    color: white;
+    width: 300px;
+    background-color:black;
+    margin-left: 40px;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 5px;
+}
+#Results{
+    font-weight: bold;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.Meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    grid-gap: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+.Meals .meal img {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.Meals .meal h3 {
+    font-size: 25px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 6px;
+    color: whitesmoke;
+}
+.Modal {
+    position: relative;
+    top: 10%;
+    left: 28%;
+    width: 40%;
+    height: 80%;
+    background-color:whitesmoke;
+    margin-top: -65%;
+}
+.Modal h3 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+} 
+.Modal ul {
+    list-style: none;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.Modal li {
+    margin-bottom: 10px;
+}
+.search-section { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
